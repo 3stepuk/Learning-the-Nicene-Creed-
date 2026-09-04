@@ -1,0 +1,6 @@
+{
+  "name": "Learning the Nicene Creed - Liturgical Memorizer",
+  "description": "A liturgical memorisation and learning application for the Nicene Creed with flashcards, quiz recital, study guide, and theological glossary.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

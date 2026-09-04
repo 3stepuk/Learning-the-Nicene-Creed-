@@ -1,0 +1,221 @@
+import { CreedCard } from '../types';
+
+export const CREED_CARDS: CreedCard[] = [
+  {
+    id: 1,
+    phaseNumber: 1,
+    phaseName: 'Phase 1 - The Father',
+    phaseSection: 'The Father Almighty',
+    cue: 'I believe in one God...',
+    response: '...the Father almighty, maker of heaven and earth, of all things visible and invisible.',
+    note: 'Foundational trust (Credo - I believe) in God as unique Source, Sovereign, Father, Creator of all, material and spiritual.',
+    themeHint: 'Gold / Sovereign Source / Primordial Light',
+    latinCue: 'Credo in unum Deum...',
+    latinResponse: '...Patrem omnipotēntem, factōrem cæli et terræ, visibīlium ómnium et invisibīlium.',
+    scriptureReferences: ['Genesis 1:1', 'Deuteronomy 6:4', '1 Corinthians 8:6', 'Colossians 1:16'],
+    glossaryTerms: ['Amen']
+  },
+  {
+    id: 2,
+    phaseNumber: 2,
+    phaseName: 'Phase 2 - The Son: Identity & Origin',
+    phaseSection: 'Identity & Origin',
+    cue: 'I believe in one Lord Jesus Christ...',
+    response: '...the Only Begotten Son of God, born of the Father before all ages.',
+    note: "Pre-eternal relationship of Son to Father; 'Only Begotten' (Monogenes) = unique in nature, not created.",
+    themeHint: 'Celestial Amber / Pre-temporal Generation',
+    latinCue: 'Et in unum Dóminum Iesum Christum...',
+    latinResponse: '...Fílium Dei unigénitum, et ex Patre natum ante ómnia sǽcula.',
+    scriptureReferences: ['John 1:14', 'John 1:18', 'Hebrews 1:2-3'],
+    glossaryTerms: ['Only Begotten (Monogenes)']
+  },
+  {
+    id: 3,
+    phaseNumber: 2,
+    phaseName: 'Phase 2 - The Son: Identity & Origin',
+    phaseSection: 'Identity & Origin',
+    cue: 'God from God, Light from Light...',
+    response: '...true God from true God, begotten, not made, consubstantial with the Father.',
+    note: "Against Arianism; 'Consubstantial' (Homoousios) = Son shares identical divine essence with the Father.",
+    themeHint: 'Radiant Fire / Uncreated Divinity',
+    latinCue: 'Deum de Deo, lumen de lúmine...',
+    latinResponse: '...Deum verum de Deo vero, génitum, non factum, consubstantiálem Patri.',
+    scriptureReferences: ['John 1:1', 'Hebrews 1:3', '1 John 5:20'],
+    glossaryTerms: ['Consubstantial (Homoousios)']
+  },
+  {
+    id: 4,
+    phaseNumber: 2,
+    phaseName: 'Phase 2 - The Son: Identity & Origin',
+    phaseSection: 'Identity & Origin',
+    cue: '...consubstantial with the Father...',
+    response: '...through him all things were made.',
+    note: 'Creation through the Logos (John 1:3).',
+    themeHint: 'Cosmic Order / The Divine Logos',
+    latinCue: '...consubstantiálem Patri...',
+    latinResponse: '...per quem ómnia facta sunt.',
+    scriptureReferences: ['John 1:3', 'Colossians 1:16', '1 Corinthians 8:6'],
+    glossaryTerms: ['Consubstantial (Homoousios)']
+  },
+  {
+    id: 5,
+    phaseNumber: 2,
+    phaseName: 'Phase 2 - The Son: Incarnation',
+    phaseSection: 'Incarnation',
+    cue: 'For us men and for our salvation...',
+    response: '...he came down from heaven, and by the Holy Spirit was incarnate of the Virgin Mary, and became man.',
+    note: 'The mystery of the Incarnation; the eternal Logos willingly assumes real flesh and full human nature through the Holy Spirit.',
+    themeHint: 'Incarnational Rose / Earth and Sky Conjoined',
+    latinCue: 'Qui propter nos hómines et propter nostram salútem...',
+    latinResponse: '...descéndit de cælis. Et incarnátus est de Spíritu Sancto ex María Vírgine, et homo factus est.',
+    scriptureReferences: ['Luke 1:35', 'John 1:14', 'Philippians 2:6-7'],
+    glossaryTerms: ['Incarnate']
+  },
+  {
+    id: 6,
+    phaseNumber: 2,
+    phaseName: 'Phase 2 - The Son: Passion, Death & Resurrection',
+    phaseSection: 'Passion, Death & Resurrection',
+    cue: 'For our sake he was crucified under Pontius Pilate...',
+    response: '...he suffered death and was buried, and rose again on the third day in accordance with the Scriptures.',
+    note: 'The Paschal Mystery: historical anchor under Pontius Pilate, genuine physical suffering and burial, and bodily resurrection fulfilling prophecy.',
+    themeHint: 'Crucible Crimson / Dawn of Victory',
+    latinCue: 'Crucifíxus étiam pro nobis sub Póntio Piláto...',
+    latinResponse: '...passus et sepúltus est, et resurréxit tértia die, secúndum Scriptūras.',
+    scriptureReferences: ['1 Corinthians 15:3-4', 'Mark 15:15', 'Luke 24:46'],
+    glossaryTerms: []
+  },
+  {
+    id: 7,
+    phaseNumber: 2,
+    phaseName: 'Phase 2 - The Son: Ascension & Second Coming',
+    phaseSection: 'Ascension & Second Coming',
+    cue: 'He ascended into heaven...',
+    response: '...and is seated at the right hand of the Father.',
+    note: "Christ's bodily exaltation and session at the right hand of God, exercising celestial intercession and sovereignty.",
+    themeHint: 'Royal Azure / Session of Dominion',
+    latinCue: 'Et ascéndit in cælum...',
+    latinResponse: '...sedet ad déxteram Patris.',
+    scriptureReferences: ['Acts 1:9', 'Mark 16:19', 'Hebrews 1:3', '1 Peter 3:22'],
+    glossaryTerms: []
+  },
+  {
+    id: 8,
+    phaseNumber: 2,
+    phaseName: 'Phase 2 - Ascension & Second Coming',
+    phaseSection: 'Ascension & Second Coming',
+    cue: 'He will come again in glory...',
+    response: '...to judge the living and the dead and his kingdom will have no end.',
+    note: 'The Parousia and final eschatological judgment; Christ’s eternal kingdom that shall never pass away.',
+    themeHint: 'Crown of Glory / Eschatological Dawn',
+    latinCue: 'Et íterum ventūrus est cum glória...',
+    latinResponse: '...iudicāre vivos et mórtuos, cuius regni non erit finis.',
+    scriptureReferences: ['Matthew 25:31-32', '2 Timothy 4:1', 'Luke 1:33', 'Daniel 7:14'],
+    glossaryTerms: []
+  },
+  {
+    id: 9,
+    phaseNumber: 3,
+    phaseName: 'Phase 3 - The Holy Spirit',
+    phaseSection: 'The Holy Spirit',
+    cue: 'I believe in the Holy Spirit, the Lord, the giver of life...',
+    response: '...who proceeds from the Father and the Son.',
+    note: 'Divinity of the Holy Spirit; welcomes both Western (Filioque) and Eastern forms.',
+    themeHint: 'Tongues of Flame / Giver of Life',
+    latinCue: 'Et in Spíritum Sanctum, Dóminum et vivificántem...',
+    latinResponse: '...qui ex Patre Filióque procédit.',
+    scriptureReferences: ['John 14:26', 'John 15:26', 'Romans 8:11', '2 Corinthians 3:17-18'],
+    glossaryTerms: ['Filioque']
+  },
+  {
+    id: 10,
+    phaseNumber: 3,
+    phaseName: 'Phase 3 - The Holy Spirit',
+    phaseSection: 'The Holy Spirit',
+    cue: '...who proceeds from the Father and the Son...',
+    response: '...who with the Father and the Son is adored and glorified, who has spoken through the prophets.',
+    note: 'Co-equal adoration of the Trinity (Trinitarian doxology) and inspiration of prophetic revelation.',
+    themeHint: 'Trinitarian Halo / Prophetic Breath',
+    latinCue: '...qui ex Patre Filióque procédit...',
+    latinResponse: '...qui cum Patre et Fílio simul adorátur et conglorificátur: qui locūtus est per prophētas.',
+    scriptureReferences: ['2 Peter 1:21', 'Matthew 28:19', 'Isaiah 6:3'],
+    glossaryTerms: ['Filioque']
+  },
+  {
+    id: 11,
+    phaseNumber: 4,
+    phaseName: 'Phase 4 - The Church',
+    phaseSection: 'The Church',
+    cue: 'I believe in one...',
+    response: '...holy, catholic and apostolic Church.',
+    note: 'The Four Marks (One, Holy, Catholic, Apostolic).',
+    themeHint: 'Sanctuary Gold / The Four Pillars',
+    latinCue: 'Et unam...',
+    latinResponse: '...sanctam, cathólicam et apostólicam Ecclésiam.',
+    scriptureReferences: ['Ephesians 4:4-6', '1 Peter 2:9', 'Matthew 28:19-20', 'Ephesians 2:20'],
+    glossaryTerms: ['Catholic (Katholikos)', 'Apostolic']
+  },
+  {
+    id: 12,
+    phaseNumber: 4,
+    phaseName: 'Phase 4 - Baptism & Forgiveness',
+    phaseSection: 'Baptism & Forgiveness',
+    cue: 'I confess one Baptism...',
+    response: '...for the forgiveness of sins.',
+    note: 'Sacramental regeneration and cleansing from sin through the one baptism.',
+    themeHint: 'Living Waters / Font of Remission',
+    latinCue: 'Confíteor unum baptísma...',
+    latinResponse: '...in remissiónem peccatōrum.',
+    scriptureReferences: ['Ephesians 4:5', 'Acts 2:38', 'Romans 6:3-4'],
+    glossaryTerms: []
+  },
+  {
+    id: 13,
+    phaseNumber: 4,
+    phaseName: 'Phase 4 - The Last Things',
+    phaseSection: 'The Last Things',
+    cue: '...and I look forward to...',
+    response: '...the resurrection of the dead and the life of the world to come. Amen.',
+    note: "'Amen' = 'So be it' / 'Truly'.",
+    themeHint: 'Eternal Dawn / The World to Come',
+    latinCue: 'Et expécto...',
+    latinResponse: '...resurrectiónem mortuōrum, et vitam ventūri sǽculi. Amen.',
+    scriptureReferences: ['1 Corinthians 15:51-57', 'Revelation 21:1-4', 'John 11:25'],
+    glossaryTerms: ['Amen']
+  }
+];
+
+export const PHASES = [
+  {
+    number: 1 as const,
+    title: 'Phase 1 - The Father',
+    shortTitle: 'The Father',
+    count: 1,
+    cardIds: [1],
+    description: 'The primordial confession of the One Almighty God, Source and Creator of all reality.'
+  },
+  {
+    number: 2 as const,
+    title: 'Phase 2 - The Son',
+    shortTitle: 'The Son',
+    count: 7,
+    cardIds: [2, 3, 4, 5, 6, 7, 8],
+    description: 'The uncreated generation of the Logos, His Incarnation, Crucifixion, Resurrection, and Glorious Return.'
+  },
+  {
+    number: 3 as const,
+    title: 'Phase 3 - The Holy Spirit',
+    shortTitle: 'The Holy Spirit',
+    count: 2,
+    cardIds: [9, 10],
+    description: 'The third person of the Blessed Trinity, Lord and Giver of Life, co-worshipped with Father and Son.'
+  },
+  {
+    number: 4 as const,
+    title: 'Phase 4 - The Church & Hope',
+    shortTitle: 'Church & Hope',
+    count: 3,
+    cardIds: [11, 12, 13],
+    description: 'The Four Marks of the Church, Sacramental Baptism, bodily resurrection, and life everlasting.'
+  }
+];
